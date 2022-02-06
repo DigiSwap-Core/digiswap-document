@@ -1,12 +1,12 @@
 ---
-description: Thank you for expressing your interest in contributing to PancakeSwap!
+description: Thank you for expressing your interest in contributing to DigiSwap!
 ---
 
 # Contributing
 
 ![](<../../.gitbook/assets/docs masthead (18) (1).png>)
 
-PancakeSwap is an open-source project. If you want to contribute to the project, this section is here to guide you through your first steps with the PancakeSwap team 🥞
+DigiSwap is an open-source project. If you want to contribute to the project, this section is here to guide you through your first steps with the DigiSwap team 🥞
 
 Before starting any development, we highly encourage you to submit an issue on Github in order to discuss the problem, and the solution with the team. 
 
@@ -96,4 +96,4 @@ Your code is ready to be submitted for review, congratulations🥳
 Create a [draft PR](https://github.blog/2019-02-14-introducing-draft-pull-requests/) as soon as possible so we can view your ongoing progress.
 {% endhint %}
 
-**Thanks for helping us making PancakeSwap even more awesome** ❤
+**Thanks for helping us making DigiSwap even more awesome** ❤

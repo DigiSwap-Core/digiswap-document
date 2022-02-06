@@ -174,7 +174,7 @@ function drawFinalNumberAndMakeLotteryClaimable(uint256 _lotteryId, bool _autoIn
         // Initializes the amount to withdraw to treasury
         uint256 amountToWithdrawToTreasury;
 
-        // Calculate prizes in CAKE for each bracket by starting from the highest one
+        // Calculate prizes in DGP for each bracket by starting from the highest one
         for (uint32 i = 0; i < 6; i++) {
             uint32 j = 5 - i;
             uint32 transformedWinningNumber = _bracketCalculator[j] + (finalNumber % (uint32(10)**(j + 1)));
@@ -199,7 +199,7 @@ function drawFinalNumberAndMakeLotteryClaimable(uint256 _lotteryId, bool _autoIn
                     // Update numberAddressesInPreviousBracket
                     numberAddressesInPreviousBracket = _numberTicketsPerLotteryId[_lotteryId][transformedWinningNumber];
                 }
-                // A. No CAKE to distribute, they are added to the amount to withdraw to treasury address
+                // A. No DGP to distribute, they are added to the amount to withdraw to treasury address
             } else {
                 _lotteries[_lotteryId].cakePerBracket[j] = 0;
 
@@ -220,7 +220,7 @@ function drawFinalNumberAndMakeLotteryClaimable(uint256 _lotteryId, bool _autoIn
 
         amountToWithdrawToTreasury += (_lotteries[_lotteryId].amountCollectedInCake - amountToShareToWinners);
 
-        // Transfer CAKE to treasury address
+        // Transfer DGP to treasury address
         cakeToken.safeTransfer(treasuryAddress, amountToWithdrawToTreasury);
 
         emit LotteryNumberDrawn(currentLotteryId, finalNumber, numberAddressesInPreviousBracket);
@@ -235,7 +235,7 @@ For **Operator** to draw the final number using ChainLink VRF function.
 
 ```typescript
    function recoverWrongTokens(address _tokenAddress, uint256 _tokenAmount) external onlyOwner {
-        require(_tokenAddress != address(cakeToken), "Cannot be CAKE token");
+        require(_tokenAddress != address(cakeToken), "Cannot be DGP token");
 
         IERC20(_tokenAddress).safeTransfer(address(msg.sender), _tokenAmount);
 
@@ -244,7 +244,7 @@ For **Operator** to draw the final number using ChainLink VRF function.
 
 ```
 
-In the case of tokens other than CAKE mistakenly being sent to the lottery contract, this function is used to recover them and is only callable by the **Owner**
+In the case of tokens other than DGP mistakenly being sent to the lottery contract, this function is used to recover them and is only callable by the **Owner**
 
 ****
 

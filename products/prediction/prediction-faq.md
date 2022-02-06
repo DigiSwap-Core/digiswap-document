@@ -28,7 +28,7 @@ Make sure you have enough BNB in your wallet to pay for gas fees. You’ll need 
 
 Markets are paused when there are conditions which affect the reliability of the contract. Markets being paused means that no bets will be taking place for any rounds.
 
-### What causes PancakeSwap Prediction market to pause?
+### What causes DigiSwap Prediction market to pause?
 
 The prediction market will pause under the following conditions:
 
@@ -55,7 +55,7 @@ For example: User A enters an UP position, no one else enters a DOWN position. U
 
 ### **What happens if the Locked Price and Closed Price are the exact same?**
 
-In the very rare occurrence that the Locked Price is exactly the same as the Closed Price, no one wins, and all funds entered into positions will be sent to the treasury to be used for CAKE buybacks to burn.
+In the very rare occurrence that the Locked Price is exactly the same as the Closed Price, no one wins, and all funds entered into positions will be sent to the treasury to be used for DGP buybacks to burn.
 
 ### **Can I change or remove my position?**
 
@@ -63,7 +63,7 @@ No. Once you enter a position, you can NOT change the directtion, add to, or rem
 
 ## General Questions
 
-### What’s the PancakeSwap Prediction contract address?
+### What’s the DigiSwap Prediction contract address?
 
 Verified contract address: [https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda)
 
@@ -82,15 +82,15 @@ For example, if there’s 15 BNB in the DOWN side of a round, and the overall pr
 
 In the above case, if the round ends on a DOWN result, if you committed 2 BNB to a DOWN position, you’d get a payout of \(2\*10\) × \(1-0.03\) = 19.4 BNB. Your profit would be 17.4 BNB \(19.4 - 2\).
 
-The treasury fee is currently set at 3%: this may be subject to changes, which would be announced on PancakeSwap’s official communication channels. Treasury fees are used to buy back and burn CAKE tokens.
+The treasury fee is currently set at 3%: this may be subject to changes, which would be announced on DigiSwap’s official communication channels. Treasury fees are used to buy back and burn DGP tokens.
 
 ### **What are the fees?**
 
-3% of each round's total pot will go to the treasury, which will be used to buyback and burn CAKE every Monday.
+3% of each round's total pot will go to the treasury, which will be used to buyback and burn DGP every Monday.
 
 ### What are you using for your price feed?
 
-PancakeSwap uses two sources for our price feeds. They each have their own purpose within the prediction market:
+DigiSwap uses two sources for our price feeds. They each have their own purpose within the prediction market:
 
 #### ChainLink Oracle
 
@@ -99,7 +99,7 @@ PancakeSwap uses two sources for our price feeds. They each have their own purpo
 
 #### Binance BNB/USDT
 
-* Used for real-time price updates on the PancakeSwap prediction market interface.
+* Used for real-time price updates on the DigiSwap prediction market interface.
 
 Since we’re using two different price feeds, the real-time price updates from Binance and the ChainLink Oracle price may differ by a small amount. However, they shouldn’t vary significantly.
 

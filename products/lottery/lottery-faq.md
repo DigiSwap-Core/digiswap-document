@@ -2,7 +2,7 @@
 
 ## What if there are no winners?
 
-If CAKE in the prize pools isn't won it doesn't go to waste! Unclaimed CAKE rolls over to the next Lottery round.
+If DGP in the prize pools isn't won it doesn't go to waste! Unclaimed DGP rolls over to the next Lottery round.
 
 ## My ticket matches several numbers but I can't claim a prize
 
@@ -16,7 +16,7 @@ Overall this means more tickets can win a prize, but the largest prize jackpot w
 
 **Lottery v2 introduces:**
 
-* cheaper ticket prices (\~$5 USD in CAKE per ticket) that don't swing wildly with the price of CAKE
+* cheaper ticket prices (\~$5 USD in DGP per ticket) that don't swing wildly with the price of DGP
 * bulk ticket discounts
 * 6-tiered prize pool brackets with increasing prize pools as more numbers are matched
 * manual number selection (optional), so users can use their lucky numbers
@@ -27,9 +27,9 @@ Overall this means more tickets can win a prize, but the largest prize jackpot w
 
 ## How are prizes broken down between brackets?
 
-Each bracket's prize pool is a portion of the total CAKE in each Lottery round.&#x20;
+Each bracket's prize pool is a portion of the total DGP in each Lottery round.&#x20;
 
-* | Bracket (numbers matched in order) | CAKE Allocation |
+* | Bracket (numbers matched in order) | DGP Allocation |
   | ---------------------------------- | --------------- |
   | First 1 number                     | 2%              |
   | First 2 numbers                    | 3%              |
@@ -39,9 +39,9 @@ Each bracket's prize pool is a portion of the total CAKE in each Lottery round.&
   | First 6 numbers                    | 40%             |
   | Burn                               | 20%             |
 
-## Can I swap my tickets back to CAKE?
+## Can I swap my tickets back to DGP?
 
-No, once purchased you will not be able to convert your ticket back to CAKE.
+No, once purchased you will not be able to convert your ticket back to DGP.
 
 ## If I win, do I need to manually claim the prize?
 
@@ -73,12 +73,12 @@ You can only buy a maximum of 100 tickets in one purchase, but you can make mult
 
 Yes, each ticket is treated as a separate entry to the Lottery. Keep in mind that the prizes will not be 1:1 though, as each winning ticket you have dilutes each share of the bracket's total prizes.
 
-## Injection schedule: When is CAKE added to the lottery?&#x20;
+## Injection schedule: When is DGP added to the lottery?&#x20;
 
-When people buy tickets, the CAKE they spend is added to the lottery pot. In addition, a total of 20,000 CAKE is also added (injected) to lottery pots on a regular schedule over the course of eight rounds (four days).
+When people buy tickets, the DGP they spend is added to the lottery pot. In addition, a total of 20,000 DGP is also added (injected) to lottery pots on a regular schedule over the course of eight rounds (four days).
 
 This injection schedule started with round 84:
 
 ![Lottery injection schedule](<../../.gitbook/assets/injection schedule.png>)
 
-The cycle restarts with a new 20,000 CAKE as soon as it finishes.
+The cycle restarts with a new 20,000 DGP as soon as it finishes.

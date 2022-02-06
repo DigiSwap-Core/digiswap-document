@@ -1,18 +1,18 @@
 ---
-description: 'Syrup Pools: the simplest way to earn on PancakeSwap'
+description: 'Syrup Pools: the simplest way to earn on DigiSwap'
 ---
 
 # How to Stake in Syrup Pools
 
 ![](<../../.gitbook/assets/docs masthead (15) (1).png>)
 
-Staking in [Syrup Pools](https://docs.pancakeswap.finance/products/syrup-pool) lets you earn CAKE or other tokens while you sleep!
+Staking in [Syrup Pools](https://docs.digiswap.finance/products/syrup-pool) lets you earn DGP or other tokens while you sleep!
 
-It's simpler than farming with PancakeSwap's Yield Farms, because unlike the Farms, you only need to stake **one token** to start earning: usually CAKE.
+It's simpler than farming with DigiSwap's Yield Farms, because unlike the Farms, you only need to stake **one token** to start earning: usually DGP.
 
 ## **Getting started with Syrup Pool staking**
 
-1\. Go to the Pools page [here](https://pancakeswap.finance/pools).
+1\. Go to the Pools page [here](https://digiswap.finance/pools).
 
 ![](<../../.gitbook/assets/image (18).png>)
 
@@ -26,11 +26,11 @@ It's simpler than farming with PancakeSwap's Yield Farms, because unlike the Far
 
 ![](<../../.gitbook/assets/image (20).png>)
 
-**Auto CAKE** automatically compounds your rewards: any CAKE you earn will be harvested and re-invested in the same pool for you.
+**Auto DGP** automatically compounds your rewards: any DGP you earn will be harvested and re-invested in the same pool for you.
 
-**Manual CAKE** doesn’t automatically compound like Auto CAKE. You’ll need to harvest and compound your earnings manually.
+**Manual DGP** doesn’t automatically compound like Auto DGP. You’ll need to harvest and compound your earnings manually.
 
-Other Syrup Pools let you stake your CAKE to earn dozens of other cool tokens. Make sure you check them out.\
+Other Syrup Pools let you stake your DGP to earn dozens of other cool tokens. Make sure you check them out.\
 ****
 
 5\. Once you choose a pool, click the **Enable** button. Your wallet will ask you to confirm the action.
@@ -39,7 +39,7 @@ Other Syrup Pools let you stake your CAKE to earn dozens of other cool tokens. M
 
 ![](<../../.gitbook/assets/image (22).png>)
 
-7\. Type in an amount or slide the rabbit to choose how much CAKE you want to stake.
+7\. Type in an amount or slide the rabbit to choose how much DGP you want to stake.
 
 ![](<../../.gitbook/assets/image (23).png>)
 
@@ -49,19 +49,19 @@ Other Syrup Pools let you stake your CAKE to earn dozens of other cool tokens. M
 
 9\. The Confirm button will change to **"**Confirming", then once the transaction is successful, you’ll see your staked amount change and the button will change again.
 
-10\. You should now be able to see details on your Syrup Pool. Auto CAKE will show a countdown until the unstaking fee ends. The other pools will show a **Collect** button to claim your staking rewards into your wallet.
+10\. You should now be able to see details on your Syrup Pool. Auto DGP will show a countdown until the unstaking fee ends. The other pools will show a **Collect** button to claim your staking rewards into your wallet.
 
 ![](<../../.gitbook/assets/image (59).png>)
 
-### **Adding and removing CAKE from a pool** ****
+### **Adding and removing DGP from a pool** ****
 
-You can easily  add more CAKE to a Syrup Pool, or move some CAKE to a more profitable pool. Here’s how you can move your staked CAKE.
+You can easily  add more DGP to a Syrup Pool, or move some DGP to a more profitable pool. Here’s how you can move your staked DGP.
 
-1\. Click the **-** to take some CAKE out of a pool, or the **+** to add more to the pool.
+1\. Click the **-** to take some DGP out of a pool, or the **+** to add more to the pool.
 
 ![](<../../.gitbook/assets/image (26).png>)
 
-Please note that unstaking from the Auto CAKE pool has a fee of 0.1% if you unstake within 72 hours.
+Please note that unstaking from the Auto DGP pool has a fee of 0.1% if you unstake within 72 hours.
 
 2\. A window will open. If you clicked the **+**, choose the amount you would like to add to the pool. If you clicked the **-**, choose the amount to take out of the pool.
 
